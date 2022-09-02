@@ -1,0 +1,38 @@
+.nav-container {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.nav-logo-container {
+    border: solid #000 1px;
+}
+
+.nav-container a {
+    display: block;
+    display: inline;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-links-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links-list > li {
+    display: inline;
+    border: solid #000 1px;
+    padding: 15px 25px;
+}
