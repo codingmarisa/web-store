@@ -1,6 +1,25 @@
+.header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index:1;
+    top: 0px;
+}
+
+.header-banner {
+    background-color: bisque;
+    font-size: small;
+    height: 26px;
+    text-align: center;
+}
+
+.header-banner > p {
+    margin: 0;
+    line-height: 26px;
+}
+
 .nav-container {
     height: 64px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: aquamarine;
