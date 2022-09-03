@@ -26,9 +26,9 @@ my-app/
 │  │    ├─ cart/   
 │  │    ├─ user/   
 │  │  ├─ utils/   
-│  │    ├─ firebase/   
-│  ├─ App.js
-│  ├─ index.js
-├─ .gitignore
-├─ package.json
-├─ README.md
+│  │    ├─ firebase/    
+│  ├─ App.js    
+│  ├─ index.js    
+├─ .gitignore    
+├─ package.json    
+├─ README.md    
