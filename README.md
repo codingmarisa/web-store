@@ -7,7 +7,6 @@ my-app/
 ├─ node_modules/   
 ├─ public/   
 ├─ src/   
-<<<<<<< HEAD
 │ &nbsp;├─ routes/   
 │ &nbsp;│ &nbsp;├─ home/   
 │ &nbsp;│ &nbsp;├─ navigation/   
@@ -30,7 +29,6 @@ my-app/
 │ &nbsp;│  &nbsp;&nbsp;&nbsp;├─ firebase/    
 │ &nbsp;├─ App.js    
 │ &nbsp;├─ index.js    
-=======
 │  ├─ routes/   
 │  │  ├─ home/   
 │  │  ├─ navigation/   
@@ -53,7 +51,6 @@ my-app/
 │  │    ├─ firebase/    
 │  ├─ App.js    
 │  ├─ index.js    
->>>>>>> 0e7ffd2c09730e7ce445aa3503c26458efb17760
 ├─ .gitignore    
 ├─ package.json    
 ├─ README.md    
