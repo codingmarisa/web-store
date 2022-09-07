@@ -15,7 +15,7 @@ my-app/
 │  │  ├─ checkout/   
 │  ├─ components/   
 │  │  ├─ category-components/   
-│  │    ├─ home-category-menu/   
+│  │  &nbsp;├─ home-category-menu/   
 │  │    ├─ browse-category-menu/   
 │  │    ├─ category-page/   
 │  │    ├─ category-item/   
