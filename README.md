@@ -2,12 +2,11 @@
 
 ## Outlines
 
-### Outline One: General Web Store
+### Outline One: General Web Store    
 my-app/    
 ├─ node_modules/   
 ├─ public/   
 ├─ src/   
-<<<<<<< HEAD
 │ &nbsp;├─ routes/   
 │ &nbsp;│ &nbsp;├─ home/   
 │ &nbsp;│ &nbsp;├─ navigation/   
@@ -30,30 +29,6 @@ my-app/
 │ &nbsp;│  &nbsp;&nbsp;&nbsp;├─ firebase/    
 │ &nbsp;├─ App.js    
 │ &nbsp;├─ index.js    
-=======
-│  ├─ routes/   
-│  │  ├─ home/   
-│  │  ├─ navigation/   
-│  │  ├─ browse/   
-│  │  ├─ sign-in/   
-│  │  ├─ checkout/   
-│  ├─ components/   
-│  │  ├─ category-components/   
-│  │  &nbsp;├─ home-category-menu/   
-│  │    ├─ browse-category-menu/   
-│  │    ├─ category-page/   
-│  │    ├─ category-item/   
-│  │  ├─ generic-components/   
-│  │    ├─ button/   
-│  │    ├─ form/   
-│  │  ├─ context/   
-│  │    ├─ cart/   
-│  │    ├─ user/   
-│  │  ├─ utils/   
-│  │    ├─ firebase/    
-│  ├─ App.js    
-│  ├─ index.js    
->>>>>>> 0e7ffd2c09730e7ce445aa3503c26458efb17760
 ├─ .gitignore    
 ├─ package.json    
 ├─ README.md    
@@ -63,6 +38,7 @@ my-app/
 ├─ node_modules/   
 ├─ public/   
 ├─ src/   
+│ &nbsp;├─ assets/  
 │ &nbsp;├─ routes/   
 │ &nbsp;│ &nbsp;├─ home/   
 │ &nbsp;│ &nbsp;├─ navigation/   

@@ -1,5 +1,8 @@
 import './home.styles.css';
 
+//image imports
+import jackAndTheBeanstalk from '../../assets/collections/fairy-tale-illustrations/jack-and-the-beanstalk-475x600.jpg';
+import cinderella from '../../assets/collections/fairy-tale-illustrations/cinderella-473x600.jpg';
 //carousel or grid?
 
 const Home = () => {
@@ -14,10 +17,13 @@ const Home = () => {
         <div className="home-gallery">
           <div className="home-category-container">
             <div>
-              <img src="http://via.placeholder.com/360x500" alt="placeholder" />
+              <img
+                src={jackAndTheBeanstalk}
+                alt="Illustration of Jack and the Beanstalk"
+              />
             </div>
             <div>
-              <img src="http://via.placeholder.com/360x500" alt="placeholder" />
+              <img src={cinderella} alt="Illustration of Cinderella" />
             </div>
           </div>
         </div>
