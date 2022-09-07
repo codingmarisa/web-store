@@ -33,7 +33,7 @@ my-app/
 ├─ package.json    
 ├─ README.md    
 
-### Outline Two: Srt Prints Web Store
+### Outline Two: Art Prints Web Store
 my-app/    
 ├─ node_modules/   
 ├─ public/   
