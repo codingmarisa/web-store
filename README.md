@@ -1,6 +1,6 @@
 # Web-store
 
-##Outlines
+## Outlines
 
 ### Outline One: General Web Store
 my-app/    
