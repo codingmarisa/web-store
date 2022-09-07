@@ -29,28 +29,6 @@ my-app/
 │ &nbsp;│  &nbsp;&nbsp;&nbsp;├─ firebase/    
 │ &nbsp;├─ App.js    
 │ &nbsp;├─ index.js    
-│  ├─ routes/   
-│  │  ├─ home/   
-│  │  ├─ navigation/   
-│  │  ├─ browse/   
-│  │  ├─ sign-in/   
-│  │  ├─ checkout/   
-│  ├─ components/   
-│  │  ├─ category-components/   
-│  │  &nbsp;├─ home-category-menu/   
-│  │    ├─ browse-category-menu/   
-│  │    ├─ category-page/   
-│  │    ├─ category-item/   
-│  │  ├─ generic-components/   
-│  │    ├─ button/   
-│  │    ├─ form/   
-│  │  ├─ context/   
-│  │    ├─ cart/   
-│  │    ├─ user/   
-│  │  ├─ utils/   
-│  │    ├─ firebase/    
-│  ├─ App.js    
-│  ├─ index.js    
 ├─ .gitignore    
 ├─ package.json    
 ├─ README.md    
