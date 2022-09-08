@@ -1,7 +1,11 @@
 import './button.styles.css';
 
-const Button = ({ text }) => {
-  return <button className={`button-container`}>{text}</button>;
+const Button = ({ children, styleName, ...otherAttributes }) => {
+  return (
+    <button className={`button ${styleName}`} {...otherAttributes}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;

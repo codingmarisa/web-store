@@ -4,6 +4,8 @@ import CategoryItem from '../category-item/category-item.component';
 
 import './category-menu.styles.css';
 
+//TODO: RENAME AND UPDATE MENU VS ITEM AND PRODUCT CARD FOR SHOP PAGE
+
 function CategoryMenu({ category, styleName }) {
   return (
     <div className={`${styleName}-container`}>

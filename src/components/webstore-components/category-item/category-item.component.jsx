@@ -1,5 +1,3 @@
-import React from 'react';
-
 import './category-item.styles.css';
 
 function CategoryItem({ item }) {

@@ -1,10 +1,10 @@
 import './form-input.styles.css';
 
-const FormInput = ({ label, ...otherProps }) => {
+const FormInput = ({ label, ...inputAttributes }) => {
   return (
     <div className="form-input-container">
-      <input className="form-input" {...otherProps} />
-      {label && <label className="label">{label}</label>}
+      <input className="form-input" {...inputAttributes} />
+      <label className="label">{label}</label>
     </div>
   );
 };
