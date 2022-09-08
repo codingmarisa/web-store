@@ -1,22 +1,22 @@
 import React from 'react';
 
-//image imports
-import jackAndTheBeanstalk from '../../assets/collections/fairy-tale-illustrations/jack-and-the-beanstalk-475x600.jpg';
-import cinderella from '../../assets/collections/fairy-tale-illustrations/cinderella-473x600.jpg';
+import CategoryItem from '../category-item/category-item.component';
 
-function CategoryMenu({ category }) {
-  const { categoryInfo, className } = category;
+import './category-menu.styles.css';
+
+function CategoryMenu({ category, styleName }) {
   return (
-    <div className={`${className}-container`}>
-      <div className={`${className}-gallery-container`}>
-        <div className={`${className}-title`}>
-          <h2>{categoryInfo.title || ''}</h2>
-          <h3>{categoryInfo.subtitle || ''}</h3>
+    <div className={`${styleName}-container`}>
+      <div className={`${styleName}-gallery-container`}>
+        <div className={`${styleName}-title`}>
+          <h2>{category.title}</h2>
         </div>
 
-        {/* add item component here */}
+        {category.items.map((item) => (
+          <CategoryItem item={item} />
+        ))}
 
-        {className === 'home' ? (
+        {styleName === 'home' ? (
           <div>
             <p>View Collection</p>
           </div>

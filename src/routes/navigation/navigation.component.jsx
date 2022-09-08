@@ -19,7 +19,7 @@ const Navigation = () => {
                 <Link to="/browse">Browse</Link>
               </li>
               <li>
-                <Link to="/sign-in">Sign In</Link>
+                <Link to="/sign-in-page">Sign In</Link>
               </li>
               <li>
                 <Link to="/checkout">Checkout</Link>
