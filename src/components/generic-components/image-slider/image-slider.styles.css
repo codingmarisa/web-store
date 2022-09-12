@@ -1,0 +1,44 @@
+.image-slider-container {
+    height: 100%;
+    position: relative;
+    background-color: aliceblue;
+}
+
+.slider-div {
+    width: 500px;
+    height: 640px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.slider-arrow {
+    position: absolute;
+    top: 50%;
+    translate: (0, -50%);
+    font-size: 55px;
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+    background-color: blue;
+}
+
+.left-arrow {
+    left: 32px;
+    
+}
+
+.right-arrow {
+    right: 32px;
+}
+
+.slider-dots-container {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-dot {
+    margin: 0px;
+    cursor: pointer;
+    font-size: 20px;
+}

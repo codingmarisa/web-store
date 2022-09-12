@@ -32,3 +32,10 @@
     border: solid yellow 1px;
     background-color: aqua;
 }
+
+.category-menu-slider-container {
+    height: 700px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
